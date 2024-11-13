@@ -95,3 +95,43 @@ summary::marker{
 }
 
 
+@media only screen and (max-width: 1440px) {
+    body{
+        background-size:auto;
+    }
+    main{
+        width: 41%;
+    }
+  }
+
+@media only screen and (max-width: 1024px) {
+
+main{
+    width: 58%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    body{
+        background-image: url(/assets/images/background-pattern-mobile.svg);
+        background-size:100%;
+    }
+    main{
+        width: 65%;
+    }
+    h1{
+       font-size: 32px;
+    }
+
+    .faqs img{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .question{
+        font-size: 16px;
+    }
+    .answers{
+        font-size: 14px;
+    }
+    }
