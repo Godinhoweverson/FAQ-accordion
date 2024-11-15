@@ -11,7 +11,7 @@ body{
     width: 100%;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-image: url(assets/images/background-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: left top;
@@ -75,11 +75,11 @@ summary{
 }
   
 summary div::after {
-    content:url(/assets/images/icon-plus.svg);
+    content:url(assets/images/icon-plus.svg);
   }
   
   details[open] summary div::after {
-    content: url(/assets/images/icon-minus.svg)
+    content: url(assets/images/icon-minus.svg)
   }
 
 .question{
